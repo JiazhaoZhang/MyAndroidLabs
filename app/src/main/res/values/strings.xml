@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidLab</string>
+    <string name="firstText">First Text</string>
+    <string name="emailInput">Email Input</string>
+    <string name="secondText">Second Text</string>
+    <string name="loginButton">Log</string>
+    <string name="p2secondText">Second Text</string>
+    <string name="p2nameInput">Page2 name input</string>
+    <string name="p2thirdText">Page2 Third Text</string>
+    <string name="p2emailInput">Page2 email input</string>
+    <string name="p2fourthText">Page2 fourth text</string>
+    <string name="toChat">Go to chatroom</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="inputHint">Type here</string>
+    <string name="weatherForcast">Weather Forecast</string>
+</resources>

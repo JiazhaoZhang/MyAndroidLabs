@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/p2firstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstText" />
+    <TextView
+        android:id="@+id/p2secondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p2secondText" />
+    <EditText
+        android:id="@+id/p2nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/p2nameInput" />
+    <TextView
+        android:id="@+id/p2thirdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p2thirdText" />
+    <EditText
+        android:id="@+id/p2emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/p2emailInput" />
+    <TextView
+        android:id="@+id/p2fourthText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p2fourthText" />
+
+
+    <ImageButton
+        android:id="@+id/pictureButton"
+        android:src="@android:drawable/picture_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/toChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toChat" />
+
+    <Button
+        android:id="@+id/toWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weatherForcast" />
+</LinearLayout>

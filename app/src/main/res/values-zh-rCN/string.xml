@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">安卓实验</string>
+    <string name="firstText">第一个文本</string>
+    <string name="emailInput">输入电邮</string>
+    <string name="secondText">第二个文本</string>
+    <string name="loginButton">登录</string>
+    <string name="p2secondText">第二页文本</string>
+    <string name="p2nameInput">输入名字</string>
+    <string name="p2thirdText">第二页第三文本</string>
+    <string name="p2emailInput">第二页邮件输入</string>
+    <string name="p2fourthText">第二页第四个文本</string>
+    <string name="toChat">进入聊天室</string>
+    <string name="send">发送</string>
+    <string name="receive">接收</string>
+    <string name="inputHint">这里输入</string>
+    <string name="weatherForcast">天气预报</string>
+</resources>
