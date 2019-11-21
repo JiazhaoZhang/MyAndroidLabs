@@ -73,8 +73,9 @@ public class WeatherForecast extends AppCompatActivity {
         protected String doInBackground(String... strings) {
             String ret = null;
 
-            // Connect to the server:
+
             try {
+                // Connect to the server:
                 URL url = new URL(queryURL);
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 InputStream inStream = urlConnection.getInputStream();

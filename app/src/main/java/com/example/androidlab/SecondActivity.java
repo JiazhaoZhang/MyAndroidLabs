@@ -25,6 +25,7 @@ public class SecondActivity extends AppCompatActivity {
     private Intent data;
     ImageButton mImageButton;
     Button toChat;
+    Button toTestToolbar;
 
 
     @Override
@@ -53,6 +54,12 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(goToWeather);
             });
         }
+
+        toTestToolbar = findViewById(R.id.testToolbar);
+        toTestToolbar.setOnClickListener(clk->{
+            Intent goToTestToolbar = new Intent(SecondActivity.this,TestToolbar.class);
+            startActivity(goToTestToolbar);
+        });
     }
 
     private void dispatchTakePictureIntent(){

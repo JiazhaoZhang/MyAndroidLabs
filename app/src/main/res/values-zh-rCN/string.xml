@@ -15,4 +15,6 @@
     <string name="receive">接收</string>
     <string name="inputHint">这里输入</string>
     <string name="weatherForcast">天气预报</string>
+    <string name="testToolbar">测试工具栏</string>
+    <string name="dialog_hint">输入中...</string>
 </resources>

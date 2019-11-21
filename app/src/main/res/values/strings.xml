@@ -14,4 +14,6 @@
     <string name="receive">Receive</string>
     <string name="inputHint">Type here</string>
     <string name="weatherForcast">Weather Forecast</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="dialog_hint">inputting...</string>
 </resources>
