@@ -139,6 +139,7 @@ public class WeatherForecast extends AppCompatActivity {
                     }
                     xpp.next(); // move the pointer to next XML element
                 }
+
                 URL uv_URL = new URL(uvUrl);
                 HttpURLConnection uvURLConnection = (HttpURLConnection) uv_URL.openConnection();
                 InputStream is_uv = uvURLConnection.getInputStream();

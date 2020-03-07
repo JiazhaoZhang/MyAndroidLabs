@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageDetail">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/msgHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showMessage"
+        />
+
+    <TextView
+        android:id="@+id/msgId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msgHere"
+        android:text="@string/messageID" />
+    <TextView
+        android:id="@+id/SendOrReceive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msgId"/>
+    <Button
+        android:id="@+id/deleteMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/deleteMsg"/>
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

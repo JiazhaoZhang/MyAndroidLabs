@@ -16,4 +16,7 @@
     <string name="weatherForcast">Weather Forecast</string>
     <string name="testToolbar">Test Toolbar</string>
     <string name="dialog_hint">inputting...</string>
+    <string name="showMessage">Message here</string>
+    <string name="messageID">ID = </string>
+    <string name="deleteMsg">Delete this message </string>
 </resources>

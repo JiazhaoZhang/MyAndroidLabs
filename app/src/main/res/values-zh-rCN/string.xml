@@ -17,4 +17,7 @@
     <string name="weatherForcast">天气预报</string>
     <string name="testToolbar">测试工具栏</string>
     <string name="dialog_hint">输入中...</string>
+    <string name="showMessage">信息在这里</string>
+    <string name="messageID">ID 是 </string>
+    <string name="deleteMsg">删除本条信息</string>
 </resources>
